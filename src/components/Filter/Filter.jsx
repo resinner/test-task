@@ -8,7 +8,7 @@ export const Filter = ({ filter, value }) => {
       onChange={(e) => filter(e.target.value)}
       value={value}
     >
-      {["show_all", "follow", "followings"].map((option) => (
+      {["show all", "follow", "followings"].map((option) => (
         <Option key={option} value={option} disabled={option === value ? true : null}>
           {option}
         </Option>
