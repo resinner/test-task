@@ -55,7 +55,6 @@ export const Picture = styled.img`
 `;
 
 export const CircleBorder = styled.div`
-  padding: 9px;
   position: absolute;
   width: 80px;
   height: 80px;
@@ -66,7 +65,7 @@ export const CircleBorder = styled.div`
   background: ${baseColor.colors.buttonPassive};
 
   clip-path: path(
-    "M40.379.379a40 40 0 0 0-40 40 40 40 0 0 0 40 40 40 40 0 0 0 40-40 40 40 0 0 0-40-40zm0 9a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31z"
+    'M40.379.379a40 40 0 0 0-40 40 40 40 0 0 0 40 40 40 40 0 0 0 40-40 40 40 0 0 0-40-40zm0 9a31 31 0 0 1 31 31 31 31 0 0 1-31 31 31 31 0 0 1-31-31 31 31 0 0 1 31-31z'
   );
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
     inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
